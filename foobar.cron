@@ -1,0 +1,6 @@
+# foobar jobs
+22 17 * * 1-5 csh -c '~/scripts/barfoo/barfoo.sh'
+30 11,13 * * 1-5 ksh -c '~/scripts/foofoo/foofoo.sh'
+55 05 * Nov 2-6 csh -c '~/scripts/barbar/barbar.sh'
+16 17 * * Mon-Thu csh -c '~/scripts/foobar/foobar.sh'
+15 17 1 6,12 * csh -c '~/scripts/barfoobar/barfoobar.sh'
